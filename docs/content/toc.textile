@@ -5,18 +5,19 @@
 
 h2. Getting Started
 * "Concepts":../design/
-* "Hello, Druid":../tutorials/tutorial-a-first-look-at-druid.html
-* "Tutorials":../tutorials/index.html
-* "Evaluate Druid":../misc/evaluate.html
+* "Quickstart Batch Ingestion":../tutorials/quickstart.html
+* "Quickstart Streaming Ingestion":../tutorials/quickstart-streaming.html
+* "Clustering":../tutorials/cluster.html
+* "Loading Data":../tutorials/ingestion.html
 
 h2. Data Ingestion
-* "Overview":../ingestion/overview.html
 * "Data Formats":../ingestion/data-formats.html
 * "Data Schema":../ingestion/index.html
 * "Schema Design":../ingestion/schema-design.html
 * "Schema Changes":../ingestion/schema-changes.html
-* "Realtime Ingestion":../ingestion/realtime-ingestion.html
-* "Batch Ingestion":../ingestion/batch-ingestion.html
+* "Batch":../ingestion/batch-ingestion.html
+* "Stream Push":../ingestion/realtime-ingestion.html
+* "Stream Pull":../ingestion/realtime-ingestion.html
 * "Updating Existing Data":../ingestion/update-existing-data.html
 * "FAQ":../ingestion/faq.html
 
@@ -39,7 +40,7 @@ h2. Querying
 ** "Context":../querying/query-context.html
 * "SQL":../querying/sql.html
 * "Joins":../querying/joins.html
-* "Multi-Valued Dimensions":../querying/multi-valued-dimensions.html
+* "Optimizations":../querying/optimizations.html
 
 h2. Design
 * "Overview":../design/design.html
@@ -59,6 +60,7 @@ h2. Design
 h2. Operations
 * "Good Practices":../operations/recommendations.html
 * "Including Extensions":../operations/including-extensions.html
+* "Query Caching":../operations/caching.html
 * "Data Retention":../operations/rule-configuration.html
 * "Metrics and Monitoring":../operations/metrics.html
 * "Alerts":../operations/alerts.html
@@ -73,9 +75,7 @@ h2. Configuration
 * "Coordinator":../configuration/coordinator.html
 * "Historical":../configuration/historical.html
 * "Broker":../configuration/broker.html
-* "Realtime":../configuration/realtime.html
 * "Configuring Logging":../configuration/logging.html
-* "Simple Cluster Configuration":../configuration/simple-cluster.html
 * "Production Cluster Configuration":../configuration/production-cluster.html
 * "Production Hadoop Configuration":../configuration/hadoop.html
 * "Production Zookeeper Configuration":../configuration/zookeeper.html
@@ -92,9 +92,9 @@ h2. Development
 ** "Geographic Queries":../development/geo.html
 ** "Select Query":../development/select-query.html
 ** "Approximate Histograms and Quantiles":../development/approximate-histograms.html
-** "Datasketches based Aggregators":../development/datasketches-aggregators.html
-** "Router node":../development/router.html
-** "New Kafka Firehose":../development/kafka-simple-consumer-firehose.html
+** "Datasketches":../development/datasketches-aggregators.html
+** "Router":../development/router.html
+** "Kafka Simple Consumer Firehose":../development/kafka-simple-consumer-firehose.html
 
 h2. Misc
 * "Papers & Talks":../misc/papers-and-talks.html

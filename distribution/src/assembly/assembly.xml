@@ -34,61 +34,114 @@
             </excludes>
             <outputDirectory>extensions</outputDirectory>
         </fileSet>
+
         <fileSet>
             <directory>${project.build.directory}/hadoop_dependencies</directory>
             <includes>
                 <include>*/*/*</include>
             </includes>
-            <outputDirectory>hadoop_dependencies</outputDirectory>
+            <outputDirectory>hadoop-dependencies</outputDirectory>
         </fileSet>
+
         <fileSet>
-            <directory>../examples/config</directory>
+            <directory>../examples/quickstart/</directory>
             <includes>
                 <include>*</include>
             </includes>
-            <outputDirectory>config</outputDirectory>
+            <outputDirectory>quickstart</outputDirectory>
         </fileSet>
+
         <fileSet>
-            <directory>../examples/config/_common</directory>
+            <directory>../examples/conf-quickstart</directory>
             <includes>
                 <include>*</include>
             </includes>
-            <outputDirectory>config/_common</outputDirectory>
+            <outputDirectory>conf-quickstart</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>../examples/config/broker</directory>
+            <directory>../examples/conf-quickstart/_common</directory>
             <includes>
                 <include>*</include>
             </includes>
-            <outputDirectory>config/broker</outputDirectory>
+            <outputDirectory>conf-quickstart/_common</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>../examples/config/coordinator</directory>
+            <directory>../examples/conf-quickstart/broker</directory>
             <includes>
                 <include>*</include>
             </includes>
-            <outputDirectory>config/coordinator</outputDirectory>
+            <outputDirectory>conf-quickstart/broker</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>../examples/config/realtime</directory>
+            <directory>../examples/conf-quickstart/coordinator</directory>
             <includes>
                 <include>*</include>
             </includes>
-            <outputDirectory>config/realtime</outputDirectory>
+            <outputDirectory>conf-quickstart/coordinator</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>../examples/config/historical</directory>
+            <directory>../examples/conf-quickstart/historical</directory>
             <includes>
                 <include>*</include>
             </includes>
-            <outputDirectory>config/historical</outputDirectory>
+            <outputDirectory>conf-quickstart/historical</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>../examples/config/overlord</directory>
+            <directory>../examples/conf-quickstart/overlord</directory>
             <includes>
                 <include>*</include>
             </includes>
-            <outputDirectory>config/overlord</outputDirectory>
+            <outputDirectory>conf-quickstart/overlord</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../examples/conf-quickstart/middleManager</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>conf-quickstart/middleManager</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>../examples/conf</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>conf</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../examples/conf/_common</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>conf/_common</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../examples/conf/broker</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>conf/broker</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../examples/conf/coordinator</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>conf/coordinator</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../examples/conf/historical</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>conf/historical</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../examples/conf/overlord</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>conf/overlord</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>../examples/bin</directory>
@@ -99,20 +152,28 @@
             <outputDirectory>/</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>../examples/bin/examples</directory>
+            <directory>../examples/conf/middleManager</directory>
             <includes>
-                <include>**</include>
+                <include>*</include>
             </includes>
-            <outputDirectory>examples</outputDirectory>
+            <outputDirectory>conf/middleManager</outputDirectory>
         </fileSet>
-        <fileSet>
-            <directory>../examples/bin/examples/twitter</directory>
-            <includes>
-                <include>*sh</include>
-            </includes>
-            <fileMode>744</fileMode>
-            <outputDirectory>examples/twitter</outputDirectory>
-        </fileSet>
+
+        <!--<fileSet>-->
+        <!--<directory>../examples/bin/more-examples</directory>-->
+        <!--<includes>-->
+        <!--<include>**</include>-->
+        <!--</includes>-->
+        <!--<outputDirectory>examples</outputDirectory>-->
+        <!--</fileSet>-->
+        <!--<fileSet>-->
+        <!--<directory>../examples/bin/examples/twitter</directory>-->
+        <!--<includes>-->
+        <!--<include>*sh</include>-->
+        <!--</includes>-->
+        <!--<fileMode>744</fileMode>-->
+        <!--<outputDirectory>examples/twitter</outputDirectory>-->
+        <!--</fileSet>-->
         <fileSet>
             <directory>../</directory>
             <includes>
