@@ -30,6 +30,7 @@ h2. Querying
 * "Segment Metadata":../querying/segmentmetadataquery.html
 * "DataSource Metadata":../querying/datasourcemetadataquery.html
 * "Search":../querying/searchquery.html
+* "Select":../querying/select-query.html
 * Components
 ** "Datasources":../querying/datasource.html
 ** "Filters":../querying/filters.html
@@ -41,6 +42,8 @@ h2. Querying
 * "SQL":../querying/sql.html
 * "Joins":../querying/joins.html
 * "Optimizations":../querying/optimizations.html
+* "Multitenancy":../querying/multitenancy.html
+* "Caching":../querying/caching.html
 
 h2. Design
 * "Overview":../design/design.html
@@ -60,13 +63,11 @@ h2. Design
 h2. Operations
 * "Good Practices":../operations/recommendations.html
 * "Including Extensions":../operations/including-extensions.html
-* "Query Caching":../operations/caching.html
 * "Data Retention":../operations/rule-configuration.html
 * "Metrics and Monitoring":../operations/metrics.html
 * "Alerts":../operations/alerts.html
 * "Updating the Cluster":../operations/rolling-updates.html
 * "Different Hadoop Versions":../operations/other-hadoop.html
-* "Multitenancy Considerations":../operations/multitenancy.html
 * "Performance FAQ":../operations/performance-faq.html
 
 h2. Configuration
@@ -75,6 +76,7 @@ h2. Configuration
 * "Coordinator":../configuration/coordinator.html
 * "Historical":../configuration/historical.html
 * "Broker":../configuration/broker.html
+* "Realtime":../configuration/realtime.html
 * "Configuring Logging":../configuration/logging.html
 * "Production Cluster Configuration":../configuration/production-cluster.html
 * "Production Hadoop Configuration":../configuration/hadoop.html
@@ -90,7 +92,6 @@ h2. Development
 * Experimental Features
 ** "Overview":../development/experimental.html
 ** "Geographic Queries":../development/geo.html
-** "Select Query":../development/select-query.html
 ** "Approximate Histograms and Quantiles":../development/approximate-histograms.html
 ** "Datasketches":../development/datasketches-aggregators.html
 ** "Router":../development/router.html

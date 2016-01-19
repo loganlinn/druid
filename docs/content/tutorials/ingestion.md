@@ -1,6 +1,7 @@
 ---
 layout: doc_page
 ---
+
 # Ingestion Overview
 
 There are a couple of different ways to get data into Druid. We hope to unify things in the near future, but for the time being
